@@ -7,7 +7,7 @@ Pemrograman Berbasis Platform (CSGE602022) - diselenggarakan oleh Fakultas Ilmu 
 
 1. Buatlah bagan yang berisi request client ke web aplikasi berbasis Django beserta responnya dan jelaskan pada bagan tersebut kaitan antara urls.py, views.py, models.py, dan berkas html;
 
-<img src="Django Response Cycle by hackr.io.png" width="100">
+<img src="Django Response Cycle by hackr.io.png" width="1000">
 
 Kaitan antara satu sama lain adalah tugas masing-masing dalam menjalankan suatu project Django. Model berfungsi sebagai basis data yang menyimpan suatu kelas dan menjadi sebuah cetakan untuk memetakan data. Views bertugas sebagai fungsi logika untuk memunculkan berkas html yang telah dibuat. Lalu urls berfungsi untuk melakukan routing/menyambungkan antara bagian satu dengan yang lain sehingga bagian yang telah dihubungkan dapat ditampilkan.
 
