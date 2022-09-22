@@ -1,0 +1,114 @@
+[
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 1,
+        "fields": {
+            "watched": true,
+            "title": "Mencuri Raden Saleh",
+            "rating": 4.1,
+            "release_date": "25 Agustus 2022",
+            "review": "Mencuri Raden Saleh bukan hanya sebuah film yang akan menyuguhkan bagaimana sekelompok pemuda melakukan aksi heist saja, namun juga bagaimana para karakter berkembang dan berinteraksi sehingga menciptakan konflik dan membuat cerita semakin kaya. 'Mencuri Raden Saleh' memberikan tontonan yang hangat antar hubungan persahabatan dan persaudaraan, serta bagaimana semangat pemuda untuk memperjuangkan apa yang mereka anggap benar dengan segala masalah yang mesti mereka hadapi."
+        }
+    },
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 2,
+        "fields": {
+            "watched": true,
+            "title": "Gundala",
+            "rating": 3.2,
+            "release_date": "29 Agustus 2019",
+            "review": "Dari awal kemunculan trailer film ini, jagat sinema Bumi Langit mengundang perbincangan menarik karena memperkenalkan beberapa hero legendaris tanah air. Di film pertamanya ini, sutradara yang juga berperan sebagai penulis cerita, Joko Anwar, berhasil tidak mengecewakan para penontonnya. Kesuksesannya terutama terlihat dari eksekusinya saat merealisasikan dan memadukan film dengan versi komiknya. Selain menyajikan adegan baku hantam yang keren, film produksi Screenplay Films ini juga sukses menyelipkan bumbu-bumbu drama yang menyentuh penontonnya. Konflik serta para villain pun di-set sedemikian rupa sehingga memiliki rupa yang tidak kalah dengan karakter-karakter superhero Marvel atau DC Universe. Walaupun belum menyentuh standar yang sama dengan film superhero Hollywood, produksi film Gundala perlu diacungi dua jempol. Sayangnya, pembukaan serial jagat Bumi Langit ini minim informasi dalam memperkenalkan tokoh yang akan hadir pada lanjutan jagat Bumi Langit. Joko Anwar terlihat sangat fokus pada cerita mengenai asal muasal Gundala sebagai superhero pertama. Padahal film ini bisa menjadi pintu untuk memperkenalkan tokoh lain dalam jagat Bumi Langit. Tapi, secara keseluruhan film ini dapat dibanggakan karena menjadi standar film Indonesia ke depannya."
+        }
+    },
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 3,
+        "fields": {
+            "watched": true,
+            "title": "Tenggelamnya Kapal Van der Wijck",
+            "rating": 3.8,
+            "release_date": "19 Desember 2013",
+            "review": "Film Tenggelamnya Kapal van der Wijck adalah salah satu film bergenre Roman Indonesia yang sangat menguras emosi, ditambah akting para pemainnya yang sangat mengagumkan. Alur film ini juga sangat menarik serta suasana yang diperlihatkan pada film ini benar-benar seperti saat Indonesia masih dijajah oleh kolonial Belanda. Namun sayangnya, alur film ini bisa dibilang lambat. Dialog para tokohnya juga menggunakan bahasa Minang sehingga bagi penonton yang tidak mengerti bahasa Minang harus menyimak terjemahannya, membuat kefokusan para penonton sedikit terbagi. Akan tetapi, penulis tetap merekomendasikan film ini untuk ditonton bagi penikmat film bergenre roman Indonesia karena film ini tidak hanya berkisah mengenai cinta, tetapi juga tentang perjuangan hidup seseorang, yakni Zainuddin."
+        }
+    },
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 4,
+        "fields": {
+            "watched": true,
+            "title": "5 cm",
+            "rating": 3.6,
+            "release_date": "12 Desember 2012",
+            "review": "Film 5 cm merupakan salah satu film Indonesia yang sangat menarik dengan kemampuan acting para pemainnya yang tak diragukan lagi. Selain itu, Film ini memiliki alur yang tidak bertele-tele serta ending yang tak terduga. Dijamin nggak bakal bikin ngantuk. Alur film ini juga sangat menarik serta suasana yang diperlihatkan pada film ini benar-benar seperti saat Indonesia masih dijajah oleh kolonial Belanda. Lagu Nidji yang berjudul 'Rahasia Hati' dan 'Di Atas Awan' juga sangat cocok dijadikan soundtrack film ini, membuat emosi yang tersaji pada tiap adegannya semakin tersampaikan dengan baik kepada para penonton."
+        }
+    },
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 5,
+        "fields": {
+            "watched": true,
+            "title": "Miracle in Cell No. 7 (Indonesia ver.)",
+            "rating": 4.0,
+            "release_date": "8 September 2022",
+            "review": [
+                "'Miracle in Cell No.7' secara tepat berhasil memberikan tontonan yang menggugah hati penonton sekaligus menampilkan kesedihan yang menyentuh hati sehingga siapapun yang menyaksikan film ini pasti akan berderai air mata. Kepiawaian Vino G. Bastian dalam memerankan karakter Dodo Rozak patut diacungi jempol. Bagaimana gestur, suara, hingga mimik wajah pun sukses ditampilkan dengan apik serta didukung oleh visual yang ciamik. Pemeran pendukung seperti para napi yang diperankan komedian juga diberikan porsi yang tak sedikit, yang membuat penonton ada jeda untuk melanjutkan tangis mereka. Meskipun ada beberapa kekurangan dalam segi sajian cerita yang ada sedikit bolongnya, namun semua itu ditutup dengan kebersamaan yang hangat dari para pemainnya."
+            ]
+        }
+    },
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 6,
+        "fields": {
+            "watched": true,
+            "title": "Ivanna",
+            "rating": 3.4,
+            "release_date": "14 Juli 2022",
+            "review": "Film yang lebih fun di antara franchise Danur lainnya. Paling beda. Paling sadis. Paling kelam. Arahannya juga paling menonjol. Terasa punya gaya tersendiri. Dari pengadeganan yang ngasih depth, kejadian film gak hanya berlangsung kiri ke kanan atau sebaliknya tapi juga masuk ke depan layar; membuat panggung yang imersif, sampai ke gimmick penceritaan horor yang lebih beragam. Film mau mengambil waktu untuk memperkenalkan karakter dan membahas backstory. Jika saja naskahnya diberikan kedalaman yang serupa, jika skenarionya lebih mengeksplorasi karakter ketimbang memikirkan jumpscare dan pembunuhan berikutnya, tentulah film ini bisa jadi horor slasher (gabungan bunuh-bunuhan dan supranatural) yang cemerlang. Tapi melihatnya secara objektif sekarang, film ini  style over substance, dengan beberapa gaya bahkan tidak tampil sebebas yang seharusnya bisa dilakukan."
+        }
+    },
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 7,
+        "fields": {
+            "watched": true,
+            "title": "Pengabdi Setan 2: Communion",
+            "rating": 3.7,
+            "release_date": "4 Agustus 2022",
+            "review": "'Pengabdi Setan 2' menjadi bukti bahwa film horor bila digarap dengan serius dari semua sisi bisa menjadi suatu karya indah yang harus dikenang sepanjang masa. 'Pengabdi Setan 2: Communion' adalah cara Joko Anwar menunjukkan keseriusannya membuktikan bahwa Indonesia memiliki kepustakaan horor yang luar biasa besar dan memiliki potensi untuk menjadi kekuatan bangsa ini. Melalui film ini, Joko ingin mengajak masyarakat untuk merasakan kengerian yang luar biasa, juga ingin turut mengundang para sineas horor bersama-sama mengembangkan industri perfilman Indonesia lebih besar lagi melalui hantu-hantunya."
+        }
+    },
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 8,
+        "fields": {
+            "watched": true,
+            "title": "Sweet 20",
+            "rating": 3.7,
+            "release_date": "16 Juni 2017",
+            "review": "Punya bumbu komedi yang semakin cerah oleh warna-warna lokal, membuat film ini enak dan relatable untuk ditonton. Musiknya oke, pemainnya pun kece. Premis ceritanya yang unik diturunkan kepentingannya oleh fakta bahwa ini adalah cerita adaptasi dari film lain. Dan semakin terbebani lagi oleh elemen-elemen cerita yang masuknya dijejelin, tanpa pernah terflesh out dengan baik. Indeed, film ini terasa kayak ringkasan dari film yang lebih panjang. Alih-alih fokus ke pengembangan relationship ke tokoh-tokoh, film ini hanya menunjukkan momen-momen di mana candaan bisa ditampilkan tanpa ada pijakan yang kuat."
+        }
+    },
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 9,
+        "fields": {
+            "watched": true,
+            "title": "Habibie & Ainun 3",
+            "rating": 3.6,
+            "release_date": "19 Desember 2019",
+            "review": "Cerita film ini mengalir dengan lancar, bahkan dengan gaya narasi yang seperti flashback. Desain produksi dan penampilan pemain mayoritas jempolan. Beginilah cara terbaik untuk menyajikan cerita yang harus memuat kenangan satu tokoh akan tokoh lain, sekaligus mengenang tokoh yang mengenang tadi, dan juga membangun cerita kehidupan tokoh yang dikenang oleh tokoh yang juga sedang dikenang. Agak tumpang tindih memang, ini mungkin adalah contoh film yang dipengaruhi oleh kejadian dunia nyata, dan sebenarnya tidak mengapa jika banting stir digunakan untuk mengenang B.J. Habibie sebagai tambahan dari mengenang Ainun lewat Habibie. Tapi ini juga menunjukkan bahwa kita tidak bisa mengenang seorang wanita hebat, tanpa menyertakan pria hebat yang didampingi olehnya. Meskipun mengusung gagasan pria dan wanita punya kesempatan yang sama dalam hal apapun, dan dari judulnya film ini memang tentang mereka berdua, akan tetapi cara film memposisikan penceritaan, menempatkan dan memperlakukan narasi tentang Ainun, tak pelak membuat kita bertanya; Apakah wanita masih minoritas di dalam dunia pria?"
+        }
+    },
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 10,
+        "fields": {
+            "watched": true,
+            "title": "Dua Garis Biru",
+            "rating": 4.0,
+            "release_date": "11 Juli 2019",
+            "review": "Film ini ibarat katarsis bagi yang pernah bersalah sebagai orangtua, anak atau anggota keluarga, dan menjadi momentum untuk bisa memaafkan diri dan orang lain dalam proses menuju lebih baik. Lebih jauh, bisa dimaknai sebagai kritik terhadap belum maksimalnya usaha pengurangan jumlah kehamilan dini dan edukasi seksual pada remaja Indonesia. Film ini penting dan perlu ditonton dengan melepaskan terlebih dahulu kacamata moralis konservatif kita, sebagai upaya pencegahan bablasnya batas hubungan sehat, dan sebagai penyadaran bahwa pendidikan seks yang komprehensif adalah penting. Sebab pemahaman seks adalah hakikat dari perjalanan mengenal diri sebagai manusia."
+        }
+    }
+]
