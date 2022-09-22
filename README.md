@@ -124,7 +124,7 @@ def show_mywatchlist_json(request):
     return HttpResponse(serializers.serialize("json", data), content_type="application/json")
 ```
 
-- Deployment dilakukan dengan pembuatan app di Heroku, app ini bernama cataloglab yang pengimplementasian tugas-3 ini tersedia pada https://cataloglab.herokuapp.com/katalog. Prosedur deployment dilakukan dengan membuat app baru di heroku, lalu memasukkan nama app dan API key pada repository secrets di github. `Settings > Secrets - Action > New repository secret` dan mengisikan HEROKU_API_KEY dan HEROKU_APP_NAME.
+- Deployment dilakukan dengan pembuatan app di Heroku, app ini bernama cataloglab yang pengimplementasian tugas-3 ini tersedia pada https://cataloglab.herokuapp.com/mywatchlist. Prosedur deployment dilakukan dengan membuat app baru di heroku, lalu memasukkan nama app dan API key pada repository secrets di github. `Settings > Secrets - Action > New repository secret` dan mengisikan HEROKU_API_KEY dan HEROKU_APP_NAME.
 
 #### Screenshot Postman
 
