@@ -95,6 +95,7 @@ urlpatterns = [
 
 
 2. Jelaskan mengapa kita memerlukan data delivery dalam pengimplementasian sebuah platform?
+
 Dalam sebuah platform diperlukan komunikasi data yang baik sehingga data yang akan diantarkan dapat sesuai dengan tujuan awal implementasinya, fungsi utamanya adalah untuk mengefisiensikan sebuah pengiriman data dalam jumlah yang besar tanpa suatu kesalahan. Selain itu data delivery juga berfungsi untuk menyampaikan informasi yang terdapat pada suatu platform kepada user atau pengunjung mengenai data yang ada di dalamnya, dalam hal ini juga dapat berbentuk tampilan teks, gambar, dan lain lain. Data delivery sangat diperlukan untuk mengerti tujuan dari sebuah platform, untuk apa dibuat dan untuk apa aplikasinya.
 
 3. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
