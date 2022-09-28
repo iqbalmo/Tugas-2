@@ -60,14 +60,14 @@ def show_mywatchlist_json(request):
 
 1. Screenshot HTML
 
-<img src="Tugas-2/img/Screenshot HTML.png" width="500">
+<img src="img/Screenshot HTML.png" width="500">
 
 2. Screenshot XML
 
-<img src="Tugas-2/img/Screenshot XML.png" width="500">
+<img src="img/Screenshot XML.png" width="500">
 
 3. Screenshot JSON
 
-<img src="Tugas-2/img/Screenshot JSON.png" width="500">
+<img src="img/Screenshot JSON.png" width="500">
 
 Ketiganya menunjukkan status `Status: 200 OK`
