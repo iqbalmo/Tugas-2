@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+ {% block content %}
+
+  <h1>Lab 3 Assignment PBP/PBD</h1>
+
+  <h5>Username: </h5>
+  <p>{{ user.get_username }}</p>
+
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Date</th>
+    </tr>
+    {% comment %} Add the data below this line {% endcomment %}
+    {% for todo in todo_list %}
+      <tr>
+        <th>{{todo.title}}</th>
+        <th>{{todo.description}}</th>
+        <th>{{todo.date}}</th>
+      </tr>
+    {% endfor %}
+  </table>
+
+ {% endblock content %}
