@@ -73,3 +73,12 @@ Berikut potongan kode fungsi show_todolist pada views.py:
 - Membuat _routing_ sehingga beberapa fungsi dapat diakses melalui URL. _Routing_ telah dilakukan di awal bersamaan dengan pengimplementasian fungsi pada views.py agar dapat saling bersinergi satu sama lain dari awal.
 
 - Melakukan _deployment_ ke Heroku terhadap aplikasi yang sudah kamu buat sehingga nantinya dapat diakses oleh teman-temanmu melalui Internet. _Deployment_ dilakukan dengan pembuatan app di Heroku, app ini bernama cataloglab yang pengimplementasian tugas-3 ini tersedia pada https://cataloglab.herokuapp.com/todolist. Prosedur deployment dilakukan dengan membuat app baru di heroku, lalu memasukkan nama app dan API key pada repository secrets di github. `Settings > Secrets - Action > New repository secret` dan mengisikan HEROKU_API_KEY dan HEROKU_APP_NAME.
+
+#### Screenshot Dummy Test
+1. Test 1
+
+<img src="img/Dummy 1.png" width="500">
+
+2. Test 2
+
+<img src="img/Dummy 2.png" width="500">
