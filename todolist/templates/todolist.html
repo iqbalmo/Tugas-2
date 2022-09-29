@@ -7,6 +7,8 @@
   <h5>Username: </h5>
   <p>{{ user.get_username }}</p>
 
+  <button><a href="{% url 'todolist:create-task' %}">Tambah Task Baru</a></button> 
+  <br><br>
   <table>
     <tr>
       <th>Title</th>
@@ -22,5 +24,6 @@
       </tr>
     {% endfor %}
   </table>
-
+  <br><br>
+  <button><a href="{% url 'todolist:logout' %}">Logout</a></button>
  {% endblock content %}

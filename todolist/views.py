@@ -48,6 +48,7 @@ def login_user(request):
     context = {}
     return render(request, 'login.html', context)
 
+@login_required(login_url='/todolist/login/')
 def create_task(request):
     if request.method == "POST":
         user = request.user
