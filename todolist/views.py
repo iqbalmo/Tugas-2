@@ -46,7 +46,7 @@ def login_user(request):
         else:
             messages.info(request, 'Username atau Password salah!')
     context = {}
-    return render(request, 'login.html', context)
+    return render(request, 'login.html', context) 
 
 @login_required(login_url='/todolist/login/')
 def create_task(request):
@@ -58,6 +58,8 @@ def create_task(request):
 
         new_task = Task(user=user, date=date, title=title, description=description)
         new_task.save()
+        return redirect('todolist:show_todolist')
+        
     context = {}
     return render(request, 'create_task.html', context)
 
