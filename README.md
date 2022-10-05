@@ -11,9 +11,10 @@ Pemrograman Berbasis Platform (CSGE602022) - diselenggarakan oleh Fakultas Ilmu 
 - Kelas: B
 
 ### README Tugas
-- [Tugas-2](katalog/README.md)
-- [Tugas-3](mywatchlist/README.md)
-- [Tugas-4](todolist/README.md)
+- [Tugas-2](katalog/Lab1.md)
+- [Tugas-3](mywatchlist/Lab2.md)
+- [Tugas-4](todolist/Lab3.md)
+- [Tugas-4](todolist/Lab4.md)
 
 ### Link Heroku
 
