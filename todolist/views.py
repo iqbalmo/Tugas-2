@@ -1,6 +1,6 @@
+from tkinter.filedialog import LoadFileDialog
 from django.shortcuts import render
 from django.shortcuts import redirect
-from django.contrib.auth.forms import UserCreationForm
 from django.contrib import messages
 from django.contrib.auth import authenticate, login
 from django.contrib.auth import logout
@@ -10,6 +10,7 @@ from django.http import HttpResponseRedirect
 from django.urls import reverse
 from todolist.models import Task
 from django.contrib.auth.models import User
+from .forms import LoginForm, SignupForm
 # Create your views here.
 
 @login_required(login_url='/todolist/login/')
@@ -21,10 +22,10 @@ def show_todolist(request):
     return render(request, "todolist.html", context)
 
 def register(request):
-    form = UserCreationForm()
+    form = SignupForm()
 
     if request.method == "POST":
-        form = UserCreationForm(request.POST)
+        form = SignupForm(request.POST)
         if form.is_valid():
             form.save()
             messages.success(request, 'Akun telah berhasil dibuat!')
@@ -34,18 +35,19 @@ def register(request):
     return render(request, 'register.html', context)
 
 def login_user(request):
+    form = LoginForm()
+
     if request.method == 'POST':
-        username = request.POST.get('username')
-        password = request.POST.get('password')
-        user = authenticate(request, username=username, password=password)
-        if user is not None:
+        form = LoginForm(data=request.POST)
+        if form.is_valid():
+            user = form.get_user()
             login(request, user) 
             response = HttpResponseRedirect(reverse("todolist:show_todolist")) 
             response.set_cookie('last_login', str(datetime.datetime.now())) 
             return response
         else:
             messages.info(request, 'Username atau Password salah!')
-    context = {}
+    context = {'form':form}
     return render(request, 'login.html', context) 
 
 @login_required(login_url='/todolist/login/')

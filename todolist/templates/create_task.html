@@ -1,18 +1,35 @@
 {% extends 'base.html' %}
 
  {% block content %}
+ {% include 'navbar.html' %}
 
-  <h2>Create Task</h2>
+ <!doctype html>
+ <html lang="en">
+   <head>
+	 <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <title>Landing Page</title>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/css/bootstrap.min.css" />
+   </head>
+   <body>
+	<h2>Create Task</h2>
 
-  <form action="" method="POST" role="form" id="#form">
-	{% csrf_token %}
-	<label for="title"><h5>Title: </h5></label><br>
-	<input type="text" id="title" name="title" maxlength="30"><br>
-	<label for="description"><h5>Description:</h5></label><br>
-	<textarea id="description" name="description" maxlength="150"></textarea><br>
-	<div class="center">
-	<input type="submit" name="button" class="btn button-main add submit-button" id="submit-button" value="Submit">
-	</div>
-  </form>
+	<form action="" method="POST" role="form" id="#form">
+	  {% csrf_token %}
+	  <label for="title"><h5>Title: </h5></label><br>
+	  <input type="text" id="title" name="title" maxlength="30"><br>
+	  <label for="description"><h5>Description:</h5></label><br>
+	  <textarea id="description" name="description" maxlength="150"></textarea><br>
+	  <div class="center">
+	  <input type="submit" name="button" class="btn button-main add submit-button" id="submit-button" value="Submit">
+	  </div>
+	</form>
+	
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> 
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script> 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+   </body>
+ </html>
+
 
  {% endblock content %}

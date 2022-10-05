@@ -1,35 +1,51 @@
 {% extends 'base.html' %}
 
  {% block content %}
+ {% include 'navbar.html' %}
 
-  <h1>Lab 1 Assignment PBP/PBD</h1>
+ <!doctype html>
+ <html lang="en">
+   <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Lab 1</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/css/bootstrap.min.css"/>
+   </head>
+   <body>
+    <h1>Lab 1 Assignment PBP/PBD</h1>
 
-  <h5>Name: </h5>
-  <p>{{nama}}</p>
-
-  <h5>Student ID: </h5>
-  <p>{{npm}}</p>
-
-  <table>
-    <tr>
-      <th>Item Name</th>
-      <th>Item Price</th>
-      <th>Item Stock</th>
-      <th>Rating</th>
-      <th>Description</th>
-      <th>Item URL</th>
-    </tr>
-    {% comment %} Add the data below this line {% endcomment %}
-    {% for barang in list_barang %}
+    <h5>Name: </h5>
+    <p>{{nama}}</p>
+  
+    <h5>Student ID: </h5>
+    <p>{{npm}}</p>
+  
+    <table>
       <tr>
-        <th>{{barang.item_name}}</th>
-        <th>{{barang.item_price}}</th>
-        <th>{{barang.item_stock}}</th>
-        <th>{{barang.description}}</th>
-        <th>{{barang.rating}}</th>
-        <th>{{barang.item_url}}</th>
+        <th>Item Name</th>
+        <th>Item Price</th>
+        <th>Item Stock</th>
+        <th>Rating</th>
+        <th>Description</th>
+        <th>Item URL</th>
       </tr>
-    {% endfor %}
-  </table>
+      {% comment %} Add the data below this line {% endcomment %}
+      {% for barang in list_barang %}
+        <tr>
+          <th>{{barang.item_name}}</th>
+          <th>{{barang.item_price}}</th>
+          <th>{{barang.item_stock}}</th>
+          <th>{{barang.description}}</th>
+          <th>{{barang.rating}}</th>
+          <th>{{barang.item_url}}</th>
+        </tr>
+      {% endfor %}
+    </table>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+    </body>
+ </html>
 
  {% endblock content %}
