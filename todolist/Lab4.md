@@ -4,7 +4,7 @@
 
 1. Apa perbedaan dari Inline, Internal, dan External CSS? Apa saja kelebihan dan kekurangan dari masing-masing style?
 #### Internal CSS
-Internal CSS adalah kode CSS yang ditulis di dalam tag <style> dan kode HTML dituliskan di bagian atas (header) file HTML. Internal CSS dapat digunakan untuk membuat tampilan pada satu halaman website dan tidak digunakan pada halaman website yang lain.
+Internal CSS adalah kode CSS yang ditulis di dalam tag `<style>` dan kode HTML dituliskan di bagian atas (header) file HTML. Internal CSS dapat digunakan untuk membuat tampilan pada satu halaman website dan tidak digunakan pada halaman website yang lain.
 
 Cara ini akan sangat cocok dipakai untuk menciptakan halaman web dengan tampilan yang berbeda. Dengan kata lain, Internal CSS ini bisa dipakai untuk menciptakan tampilan yang unik, pada setiap halaman website.
 
@@ -31,7 +31,7 @@ Cara ini kurang efisien karena setiap tag HTML yang diberikan harus memiliki sty
 1. Tidak efisien karena Inline style CSS hanya bisa diterapkan pada satu elemen HTML.
 
 #### External CSS
-Eksternal CSS adalah kode CSS yang ditulis terpisah dengan kode HTML Eksternal CSS ditulis di sebuah file khusus yang berekstensi .css. File eksternal CSS biasanya diletakkan setelah bagian <head> pada halaman.
+Eksternal CSS adalah kode CSS yang ditulis terpisah dengan kode HTML Eksternal CSS ditulis di sebuah file khusus yang berekstensi .css. File eksternal CSS biasanya diletakkan setelah bagian `<head>` pada halaman.
 
 Cara ini lebih sederhana dan simpel daripada menambahkan kode CSS di setiap elemen HTML yang ingin Anda atur tampilannya. 
 
@@ -120,12 +120,12 @@ Cara ini lebih sederhana dan simpel daripada menambahkan kode CSS di setiap elem
 | `<map>` | Tag untuk membuat gambar-peta |
 | `<area>` | Tag untuk membuat area dalam gambar-peta |
 | `<canvas>` | Digunakan untuk menggambar grafik, melalui scripting (JavaScript ) (tag baru HTML5) |
-| `<figcaption>` | Tag untuk membuat sebuah caption untuk elemen <figure> (tag baru HTML5) |
+| `<figcaption>` | Tag untuk membuat sebuah caption untuk elemen `<figure>` (tag baru HTML5) |
 | `<figure>` | Menentukan konten mandiri (tag baru HTML5) |
 | **Audio/Video** |   |
 | `<audio>` | Tag untuk membuat isi suara (tag baru HTML5) |
-| `<source>` | Tag untuk membuat sumber beberapa media untuk elemen media (<video> dan <audio>) (tag baru HTML5) |
-| `<track>` | Tag untuk membuat trek teks untuk elemen media (<video> dan <audio>) (tag baru HTML5) |
+| `<source>` | Tag untuk membuat sumber beberapa media untuk elemen media (`<video>` dan `<audio>`) (tag baru HTML5) |
+| `<track>` | Tag untuk membuat trek teks untuk elemen media (`<video>` dan `<audio>`) (tag baru HTML5) |
 | `<video>` | Tag untuk membuat sebuah video atau film (tag baru HTML5) |
 | **Links** |   |
 | `<a>` | Tag untuk membuat hyperlink |
@@ -150,7 +150,7 @@ Cara ini lebih sederhana dan simpel daripada menambahkan kode CSS di setiap elem
 | `<thead>` | Mengelompokan isi header dalam sebuah tabel |
 | `<tbody>` | Mengelompokanisi tubuh dalam sebuah tabel |
 | `<tfoot>` | Mengelompokan isi footer dalam sebuah tabel |
-| `<col>` | Menentukan properti kolom untuk setiap kolom dalam elemen <colgroup> |
+| `<col>` | Menentukan properti kolom untuk setiap kolom dalam elemen `<colgroup>` |
 | `<colgroup>` | Menentukan kelompok dari satu atau lebih kolom dalam sebuah tabel untuk diformat |
 | **Style/Sections** |   |
 | `<style>` | Tag untuk membuat informasi style untuk dokumen |
@@ -158,13 +158,13 @@ Cara ini lebih sederhana dan simpel daripada menambahkan kode CSS di setiap elem
 | `<span>` | Tag untuk membuat sebuah bagian dalam dokumen |
 | `<header>` | Tag untuk membuat sebuah header untuk dokumen atau bagian (tag baru HTML5) |
 | `<footer>` | Tag untuk membuat footer untuk dokumen atau bagian (tag baru HTML5) |
-| `<hgroup>` | Pengelompokan elemen heading (<h1> sampai <h6>) (tag baru HTML5) |
+| `<hgroup>` | Pengelompokan elemen heading (`<h1>` sampai `<h6>`) (tag baru HTML5) |
 | `<section>` | Tag untuk membuat bagian dalam dokumen (tag baru HTML5) |
 | `<article>` | Tag untuk membuat sebuah artikel (tag baru HTML5) |
 | `<aside>` | Tag untuk membuat konten lain selain dari konten halaman (tag baru HTML5) |
 | `<details>` | Tag untuk membuat rincian tambahan yang pengguna dapat lihat atau sembunyikan (tag baru HTML5) |
 | `<dialog>` | Tag untuk membuat sebuah kotak dialog atau jendela (tag baru HTML5) |
-| `<summary>` | Tag untuk membuat sebuah judul terlihat untuk elemen <detil> (tag baru HTML5) |
+| `<summary>` | Tag untuk membuat sebuah judul terlihat untuk elemen `<detil>` (tag baru HTML5) |
 | **Meta Info** |   |
 | `<head>` | Tag untuk membuat informasi tentang dokumen |
 | `<meta>` | Tag untuk membuat metadata tentang dokumen HTML |
@@ -189,7 +189,7 @@ p {
     color: red;
 }
 ```
-Artinya: Pilih semua elemen <p> lalu atur warna teksnya menjadi merah.
+Artinya: Pilih semua elemen `<p>` lalu atur warna teksnya menjadi merah.
 
 2. Selektor Class
 Selektor class adalah selektor yang memilih elemen berdasarkan nama class yang diberikan. Selektor class dibuat dengan tanda titik di depannya.
@@ -227,7 +227,7 @@ input[type=text] {
     border: 1px solid cyan;
 }
 ```
-Artinya kita akan memilih semua elemen <input> yang memiliki atribut type='text'.
+Artinya kita akan memilih semua elemen `<input>` yang memiliki atribut type='text'.
 
 5. Selektor Universal
 Selektor universal adalah selektor yang digunakan untuk menyeleksi semua elemen pada jangkaua (scope) tertentu.
@@ -252,7 +252,7 @@ a:hover {
   color: green;
 }
 ```
-Kita akan memberikan warna hijau pada elemen <a> saat dia di-hover atau disentuh pointer.
+Kita akan memberikan warna hijau pada elemen `<a>` saat dia di-hover atau disentuh pointer.
 
 - pseudo-element selektor untuk elemen semu di HTML.
 Contoh:
