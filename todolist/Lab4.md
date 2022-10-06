@@ -89,14 +89,14 @@ Cara ini lebih sederhana dan simpel daripada menambahkan kode CSS di setiap elem
 | <small> | Tag untuk membuat teks kecil |
 | <strike> | Tag untuk membuat teks yang di coret tengah (tidak disupport lagi di HTML5) |
 | <strong> | Tag untuk membuat teks penting |
-| <sub> | Tag untuk membuat teks subskrip (seperti dalam penulisan Jat Kimia) |
+| <sub> | Tag untuk membuat teks subskrip (seperti dalam penulisan Zat Kimia) |
 | <sup> | Tag untuk membuat teks superscripted (seperti dalam penulisan akar kuadrat) |
 | <time> | Tag untuk membuat tanggal / waktu (tag baru HTML5) |
 | <tt> | Tag untuk membuat teks teletype (tidak disupport lagi di HTML5) |
 | <u> | Tag untuk membuat teks yang memiliki Gaya yang berbeda dari teks biasa lainnya |
 | <var> | Tag untuk membuat sebuah variabel |
 | <wbr> | Tag untuk membuat kemungkinan garis-putus |
-| Forms |   |
+| **Forms** |   |
 | <form> | Tag untuk membuat sebuah form HTML untuk input pengguna |
 | <input> | Tag untuk membuat sebuah kontrol input |
 | <textarea> | Tag untuk membuat sebuah kontrol input multibaris (text area) |
